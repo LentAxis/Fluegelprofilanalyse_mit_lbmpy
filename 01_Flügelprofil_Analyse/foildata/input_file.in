@@ -1,0 +1,18 @@
+LOAD NACA0012.dat
+NACA0012
+PSAVE NACA0012_coordinates.txt
+PPAR
+N 200
+T 1
+
+
+OPER
+Visc 366754.8
+PACC
+NACA0012_polar_file.txt
+
+ITER 300
+ASeq 0 15 0.5
+
+
+quit
